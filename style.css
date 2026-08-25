@@ -96,13 +96,14 @@ body {
 
 .btn-secondary {
     background-color: transparent;
-    color: var(--secondary);
+    color: #fff;
     border: 1px solid var(--border-color);
 }
 
 .btn-secondary:hover {
     background-color: #f1f5f9;
     border-color: #cbd5e1;
+    color: var(--primary);
 }
 
 .btn-block {
@@ -161,6 +162,7 @@ body {
 
 .nav-menu .btn-nav:hover {
     background-color: var(--primary);
+    color: #fff;
 }
 
 .hero-section {
